@@ -20,6 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins = [
   "http://localhost:5173", // Local client
+  "https://coursify-static.onrender.com", // Deployed client
   process.env.FRONTEND_URL, // Deployed client
 ];
 
