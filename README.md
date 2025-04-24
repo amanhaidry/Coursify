@@ -5,6 +5,7 @@ This repository contains the source code and implementation of a Learning Manage
 ## Table of Contents
 
 - [Overview](#overview)
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -15,6 +16,41 @@ This repository contains the source code and implementation of a Learning Manage
 ## Overview
 
 The Learning Management System (LMS) is a web-based application that facilitates the management and delivery of educational content and training materials. It allows administrators to create courses, manage users, and track progress. Users can access courses, view content, and complete assessments. Additionally, it offers subscription management through Razorpay, allowing users to purchase and cancel subscriptions.
+
+## Tech Stack
+
+The project utilizes the following technologies:
+
+- **Frontend**:
+  - **React**: For building the user interface and managing the application state.
+  - **Tailwind CSS**: For styling the application with a modern and responsive design.
+  - **DaisyUI**: A Tailwind CSS component library for pre-designed UI components.
+
+- **Backend**:
+  - **Node.js**: For building the server-side application.
+  - **Express.js**: A web framework for handling API requests and routing.
+
+- **Database**:
+  - **MongoDB**: For storing user data, course information, and other application data.
+
+- **Authentication**:
+  - **JWT (JSON Web Tokens)**: For secure user authentication and session management.
+
+- **Media Management**:
+  - **Cloudinary**: For uploading, storing, and retrieving media files such as videos and images.
+
+- **Payment Integration**:
+  - **Razorpay**: For handling subscription payments and managing premium features.
+
+- **Email Service**:
+  - **SMTP**: For sending emails through the contact form and other notifications.
+
+- **DevOps**:
+  - **CORS**: For enabling cross-origin requests between the frontend and backend.
+  - **Environment Variables**: For securely managing sensitive information like API keys and secrets.
+
+Each technology is carefully chosen to ensure a seamless and efficient user experience while maintaining scalability and security.
+
 
 ## Features
 
@@ -52,7 +88,7 @@ Before running this project locally, ensure you have the following :
  Clone the project 
 
 ```bash
-git@github.com:amanhaidry/Coursify.git
+https://github.com/amanhaidry/Coursify.git
 ```
 
 ### Setup instruction  for Frontend
