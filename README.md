@@ -201,42 +201,6 @@ npm run dev
 ![Home Page](./screenshots/home.png)
 ![Explore Courses](./screenshots/explore-courses.png)
 
-### Sidebar
-![Sidebar](./screenshots/sidebar(admin).png)
-
-### Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
-![Admin Dashboard](./screenshots/course-overview(admin-panel).png)
-
-### Create/Edit course
-![Create course](./screenshots/create-course.png)
-![Edit course](./screenshots/edit-course.png)
-
-### Add/Update/Delete Lecture
-![Update Lecture](./screenshots/update-lectures.png)
-![Add Lecture](./screenshots/add-lecture.png)
-
-### Login/Signup
-![Signup](./screenshots/signup-page.png)
-![Login](./screenshots/login-page.png)
-
-### Update/Forget
-![Edit](./screenshots/edit-profile.png)
-![Forget](./screenshots/forget-password.png)
-![Change Password](./screenshots/change-password.png)
-
-### Buy Subscription
-![Buy Now](./screenshots/buy-now.png)
-![Pay Now](./screenshots/pay-now.png)
-
-### Watch Lectures
-![Course Overview](./screenshots/course-overview.png)
-![Watch Lecture](./screenshots/watch-lectures.png)
-
-### Contact Form
-![Contact Form](./screenshots/contact-form.png)
----
-
 ## Deployment & Branches
 
 This project is organized into multiple repositories and branches to facilitate local development and deployment across different platforms:
