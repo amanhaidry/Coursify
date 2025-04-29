@@ -16,6 +16,7 @@ This repository contains the source code and implementation of a Learning Manage
 ## Overview
 
 The Learning Management System (LMS) is a web-based application that facilitates the management and delivery of educational content and training materials. It allows administrators to create courses, manage users, and track progress. Users can access courses, view content, and complete assessments. Additionally, it offers subscription management through Razorpay, allowing users to purchase and cancel subscriptions.
+This application also supports Progressive Web App (PWA) functionality, allowing users to install it on their desktop or mobile devices as a standalone app. This ensures a seamless experience with offline capabilities and quick access directly from the home screen.
 
 ## Tech Stack
 
