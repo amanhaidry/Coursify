@@ -1,6 +1,11 @@
 # Coursify (Learning Management System)
 
-This repository contains the source code and implementation of a Learning Management System (LMS) developed using the MERN stack (MongoDB, Express.js, React, Node.js). The project leverages Tailwind CSS and DaisyUI for styling, providing a modern and responsive user interface. Media management is handled through Cloudinary, enabling seamless upload and retrieval of content. Additionally, Razorpay is integrated for subscription management, allowing users to access premium features through a secure and efficient payment gateway.
+This repository contains the source code and implementation of a Learning Management System (LMS) developed using the MERN stack (MongoDB, Express.js, React, Node.js). The project leverages Tailwind CSS and DaisyUI for styling, providing a modern and responsive user interface. Media management is handled through Cloudinary, enabling seamless upload and retrieval of content. Additionally, Razorpay is integrated for subscription management, allowing users to access premium features through a secure and efficient payment gateway.This application also supports Progressive Web App (PWA) functionality, allowing users to install it on their desktop or mobile devices as a standalone app. This ensures a seamless experience with offline capabilities and quick access directly from the home screen.
+
+## Live Project
+
+You can access the live project here: [Coursify Live](https://coursify-lms.netlify.app)
+
 
 ## Table of Contents
 
