@@ -1,6 +1,11 @@
 # Coursify (Learning Management System)
 
-This repository contains the source code and implementation of a Learning Management System (LMS) developed using the MERN stack (MongoDB, Express.js, React, Node.js). The project leverages Tailwind CSS and DaisyUI for styling, providing a modern and responsive user interface. Media management is handled through Cloudinary, enabling seamless upload and retrieval of content. Additionally, Razorpay is integrated for subscription management, allowing users to access premium features through a secure and efficient payment gateway.
+This repository contains the source code and implementation of a Learning Management System (LMS) developed using the MERN stack (MongoDB, Express.js, React, Node.js). The project leverages Tailwind CSS and DaisyUI for styling, providing a modern and responsive user interface. Media management is handled through Cloudinary, enabling seamless upload and retrieval of content. Additionally, Razorpay is integrated for subscription management, allowing users to access premium features through a secure and efficient payment gateway.This application also supports Progressive Web App (PWA) functionality, allowing users to install it on their desktop or mobile devices as a standalone app. This ensures a seamless experience with offline capabilities and quick access directly from the home screen.
+
+## Live Project
+
+You can access the live project here: [Coursify Live](https://coursify-lms.netlify.app)
+
 
 ## Table of Contents
 
@@ -16,6 +21,7 @@ This repository contains the source code and implementation of a Learning Manage
 ## Overview
 
 The Learning Management System (LMS) is a web-based application that facilitates the management and delivery of educational content and training materials. It allows administrators to create courses, manage users, and track progress. Users can access courses, view content, and complete assessments. Additionally, it offers subscription management through Razorpay, allowing users to purchase and cancel subscriptions.
+This application also supports Progressive Web App (PWA) functionality, allowing users to install it on their desktop or mobile devices as a standalone app. This ensures a seamless experience with offline capabilities and quick access directly from the home screen.
 
 ## Tech Stack
 
@@ -70,8 +76,12 @@ Each technology is carefully chosen to ensure a seamless and efficient user expe
   - Users can view and purchase subscription plans.
   - Razorpay integration ensures secure payment processing.
 
-
 - **Contact Us**: Built-in contact form for user queries, integrated with SMTP for email delivery.
+
+- **Progressive Web App (PWA)**: 
+  - Installable on desktop and mobile devices for a native app-like experience.
+  - Offline capabilities for accessing content without an internet connection.
+  - Quick access directly from the home screen.
 
 ## Prerequisites
 
@@ -226,4 +236,25 @@ npm run dev
 ### Contact Form
 ![Contact Form](./screenshots/contact-form.png)
 ---
+
+## Deployment & Branches
+
+This project is organized into multiple repositories and branches to facilitate local development and deployment across different platforms:
+
+1. **Main Repository**:
+  - The main branch contains the raw code files for both the client and server sides. This branch is designed for local development and testing. Deployment-specific changes (e.g., environment variables, configurations) should be made according to the target deployment platform.
+
+2. **Server-Side Deployment**:
+  - For server-side deployment, refer to the `coursify-onrender` branch. This branch is specifically configured for deployment on [Render](https://render.com). It includes the necessary server-side files and configurations for hosting the backend.
+
+3. **Client-Side Deployment**:
+  - For client-side deployment, refer to the `coursify-static-onrender` branch. This branch is configured to deploy the frontend as a static site on Render. It includes optimized build files and deployment-specific settings.
+
+4. **Progressive Web App (PWA)**:
+  - If you want to create a Progressive Web App (PWA) version of the client side, refer to the `coursify-pwa` branch. This branch includes additional configurations and files required to enable PWA functionality, such as service workers and a manifest file.
+
+Each branch is tailored to its specific purpose, ensuring a streamlined workflow for development, deployment, and PWA support.
+
+---
+
 Happy Coding...
