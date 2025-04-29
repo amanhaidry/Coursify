@@ -71,8 +71,12 @@ Each technology is carefully chosen to ensure a seamless and efficient user expe
   - Users can view and purchase subscription plans.
   - Razorpay integration ensures secure payment processing.
 
-
 - **Contact Us**: Built-in contact form for user queries, integrated with SMTP for email delivery.
+
+- **Progressive Web App (PWA)**: 
+  - Installable on desktop and mobile devices for a native app-like experience.
+  - Offline capabilities for accessing content without an internet connection.
+  - Quick access directly from the home screen.
 
 ## Prerequisites
 
